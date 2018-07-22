@@ -1,0 +1,37 @@
+{
+  "name": "warsawjs-workshop-22-project",
+  "version": "0.1.0",
+  "description": "Project na warsztaty WarsawJS #22 - grupa 4",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykulyak/warsawjs-workshop-22-project.git"
+  },
+  "keywords": [
+    "WarsawJS",
+    "testing",
+    "Jest"
+  ],
+  "author": "Andriy Mykulyak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mykulyak/warsawjs-workshop-22-project/issues"
+  },
+  "homepage": "https://github.com/mykulyak/warsawjs-workshop-22-project#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "jest": "^23.4.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.0",
+    "babel-preset-env": "^1.7.0",
+    "jsdom": "^11.11.0",
+    "regenerator-runtime": "^0.12.0"
+  }
+}
