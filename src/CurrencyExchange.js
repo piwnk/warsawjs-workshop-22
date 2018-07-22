@@ -16,7 +16,7 @@ export default class CurrencyExchange {
       names: [],
       rates: {}
     });
-
+    //
     const buys = data.map(item => item.buy);
     const sells = data.map(item => item.sell);
 
